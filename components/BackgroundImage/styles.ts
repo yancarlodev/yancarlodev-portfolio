@@ -13,6 +13,7 @@ export const ImageContainer = styled('div', {
     width: '100%',
     height: '100vh',
     position: 'fixed',
+    backgroundColor: '#333333',
     zIndex: -1,
     variants: {
         filter: {

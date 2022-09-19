@@ -11,7 +11,9 @@ export default function ProjectInfo({ title, description, tech }: IProjectInfoPr
     return(
         <Popover.Root>
             <S.Trigger asChild>
-                <S.InfoIcon/>
+                <S.ButtonIcon aria-label="Open Popover">
+                    <S.InfoIcon/>
+                </S.ButtonIcon>
             </S.Trigger>
             <Popover.Anchor />
             <Popover.Portal>

@@ -37,6 +37,12 @@ export const InfoIcon = styled(MdInfo, {
     cursor: 'pointer'
 })
 
+export const ButtonIcon = styled('button', {
+    border: 'none',
+    height: 28,
+    background: 'transparent'
+})
+
 export const Content = styled(Popover.Content, {
     position: 'absolute',
     zIndex: 1,

@@ -92,7 +92,8 @@ export const PageIdentifier = styled('h3', {
 
 export const Title = styled('h1', {
     fontSize: 48,
-    fontWeight: 700
+    fontWeight: 700,
+    color: 'white'
 })
 
 export const subTitle = styled('h2', {
@@ -108,6 +109,7 @@ export const Button = styled('button', {
     fontWeight: 400,
     width: 'max-content',
     cursor: 'pointer',
+    color: 'white',
     '&:hover': {
         filter: 'brightness(0.8)'
     },

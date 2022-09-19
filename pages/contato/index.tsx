@@ -4,6 +4,7 @@ import * as Shared from '../../styles/'
 import { SiWhatsapp, SiGmail, SiLinkedin, SiGithub } from 'react-icons/si'
 import * as TechShared from '../tecnologias/styles'
 import BackgroundImage from "../../components/BackgroundImage";
+import * as S from './style'
 
 const iconsInfo = [
     {
@@ -54,12 +55,12 @@ export default function Contato() {
                 <Shared.Wrapper to='icons' as='ul'>
                     {
                         iconsInfo.map(({icon: Icon, id, title, size, href}) =>
-                            <a key={id} href={href} target='_blank' rel="noopener noreferrer">
-                                <TechShared.IconContainer type='contact'>
-                                    <Icon size={size}/>
-                                    <TechShared.IconTitle type='contact'>{title}</TechShared.IconTitle>
-                                </TechShared.IconContainer>
-                            </a>
+                                <li key={id}>
+                                    <S.Link href={href} target='_blank' rel="noopener noreferrer">
+                                        <Icon size={size}/>
+                                        <TechShared.IconTitle type='contact'>{title}</TechShared.IconTitle>
+                                    </S.Link>
+                                </li>
                         )
                     }
                 </Shared.Wrapper>

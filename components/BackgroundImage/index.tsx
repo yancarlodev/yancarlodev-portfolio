@@ -7,7 +7,7 @@ export default function BackgroundImage() {
 
     return(
         <S.ImageContainer filter={pathname === '/' ? 'none' : 'blur'}>
-            <Image src='/background-image.svg' alt='background image' quality={100} priority layout="fill" objectFit="cover"/>
+            <Image src='/background-image.png' alt='background image' quality={100} priority layout="fill" objectFit="cover"/>
             {
                 pathname === '/' ? 
                 <>
