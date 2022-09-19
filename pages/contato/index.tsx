@@ -39,7 +39,7 @@ const iconsInfo = [
 export default function Contato() {
     return(
         <>
-        <SEO title='Tecnologias' description='Estou em constante busca de conhecimento, então essa lista só tende a crescer!'/>
+        <SEO title='Contato' description='Atualmente estou procurando por uma oportunidade de trabalho, então aguardo ansiosamente seu contato!'/>
         
         <Shared.Container>
             <Header/>

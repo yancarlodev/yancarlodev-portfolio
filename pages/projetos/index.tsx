@@ -8,7 +8,7 @@ import { projects } from "../../services/db"
 export default function Projetos() {
     return(
         <>
-        <SEO title='Tecnologias' description='Estou em constante busca de conhecimento, então essa lista só tende a crescer!'/>
+        <SEO title='Projetos' description='Espero que gostem, e estou sempre aberto a feedbacks!'/>
         
         <Shared.Container>
             <Header/>
