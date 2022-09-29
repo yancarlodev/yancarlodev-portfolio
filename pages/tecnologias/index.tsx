@@ -63,7 +63,7 @@ export default function Tecnologias() {
                     {
                         iconsInfo.map(({icon: Icon, id, title, size}) =>
                             <Tech.IconContainer key={id}>
-                                <Icon size={size}/>
+                                <Icon size={size} color='white'/>
                                 <Tech.IconTitle>{title}</Tech.IconTitle>
                             </Tech.IconContainer>
                         )

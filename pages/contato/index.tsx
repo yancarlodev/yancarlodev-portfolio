@@ -57,7 +57,7 @@ export default function Contato() {
                         iconsInfo.map(({icon: Icon, id, title, size, href}) =>
                                 <li key={id}>
                                     <S.Link href={href} target='_blank' rel="noopener noreferrer">
-                                        <Icon size={size}/>
+                                        <Icon size={size} color='white'/>
                                         <TechShared.IconTitle type='contact'>{title}</TechShared.IconTitle>
                                     </S.Link>
                                 </li>

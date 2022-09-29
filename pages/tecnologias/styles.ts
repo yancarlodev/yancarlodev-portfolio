@@ -3,6 +3,7 @@ import { styled } from "@stitches/react";
 export const IconTitle = styled('h3', {
     width: 'max-content',
     fontWeight: 400,
+    color: 'white',
     variants: {
         type: {
             contact: {
