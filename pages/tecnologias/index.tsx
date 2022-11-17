@@ -2,7 +2,7 @@ import Header from "../../components/Header";
 import SEO from "../../components/SEO";
 import * as Shared from '../../styles/'
 import * as Tech from './styles'
-import { SiTypescript, SiGit, SiReact, SiTailwindcss, SiSass, SiNextdotjs } from 'react-icons/si'
+import { SiTypescript, SiGit, SiReact, SiTailwindcss, SiSass, SiNextdotjs, SiNodedotjs, SiNestjs, SiPostgresql, SiPrisma } from 'react-icons/si'
 import BackgroundImage from "../../components/BackgroundImage";
 
 const iconsInfo = [
@@ -20,24 +20,36 @@ const iconsInfo = [
     },
     {
         id: 3,
-        icon: SiTypescript,
-        title: 'Typescript',
-        size: 65
-    },
-    {
-        id: 4,
-        icon: SiSass,
-        title: 'Sass',
-        size: 65
-    },
-    {
-        id: 5,
         icon: SiTailwindcss,
         title: 'Tailwind',
         size: 65
     },
     {
+        id: 4,
+        icon: SiNodedotjs,
+        title: 'NodeJS',
+        size: 65
+    },
+    {
+        id: 5,
+        icon: SiNestjs,
+        title: 'NestJS',
+        size: 65
+    },
+    {
         id: 6,
+        icon: SiPrisma,
+        title: 'Prisma',
+        size: 65
+    },
+    {
+        id: 7,
+        icon: SiPostgresql,
+        title: 'PostgreSQL',
+        size: 65
+    },
+    {
+        id: 8,
         icon: SiGit,
         title: 'Git',
         size: 65

@@ -16,7 +16,7 @@ const Home: NextPage = () => {
             <S.Main>
                 <S.Wrapper to='text'>
                     <S.PageIdentifier>INÍCIO</S.PageIdentifier>
-                    <S.Title>Olá, meu nome é Yan Carlo e sou um dev Front-end!</S.Title>
+                    <S.Title>Olá, meu nome é Yan Carlo e sou um dev Full-stack!</S.Title>
                     <S.subTitle>Sou apaixonado por resolver problemas e propor soluções funcionais e criativas, sempre buscando as melhores práticas do mercado.</S.subTitle>
                 </S.Wrapper>
 
